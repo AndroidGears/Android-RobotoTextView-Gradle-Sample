@@ -1,0 +1,19 @@
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.github.johnkil.android-robototextview:robototextview:2.0.0'
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.0"
+
+    defaultConfig {
+        minSdkVersion 3
+        targetSdkVersion 19
+    }
+}
